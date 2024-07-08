@@ -41,7 +41,7 @@ public class Main {
             System.out.println("the number is even");
         }
         else{
-            System.out.println("the number is odd");K
+            System.out.println("the number is odd");
         }
 
     }
