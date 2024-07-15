@@ -33,31 +33,29 @@ public class IF_CONDITION {
         System.out.println("enter a number");
         int num1 = sc1.nextInt();
 
-        if (num1 >= 1000) {
+        if (num1 > 1000) {
             int num2 = num1 / 1000;
-            num1 = num1 - (num2 * 1000);
+            num1 = num1 - (num2 * 500);
 
-            if (num1 >= 500) {
+
+            if (num1 > 500) {
                 int num3 = num1 / 500;
-                num1 = num1 - (num2 * 500);
+                num1 = num1 - (num3 * 100);
 
-                if (num1 >= 100) {
+
+                if (num1 > 100) {
                     int num4 = num1 / 100;
-                    num1 = num1 - (num2 * 100);
+                    num1 = num1 - (num4 * 10);
 
-                    if (num1 >= 50) {
-                        int num5 = num1 / 50;
-                        num1 = num1 - (num2 * 50);
-                        if (num1 >= 10) {
-                            int num6 = num1 / 10;
-                            num1 = num1 - (num2 * 10);
+
+
                         }
                     }
                 }
+        System.out.println(num1);
 
             }
 
         }
-        System.out.println(num1);
-    }
-}
+
+
